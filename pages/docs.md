@@ -215,7 +215,7 @@ your operating system (`sendfile` on UNIX) to transfer the file.
 ### JSON
 
 Even dictionaries are allowed. They are converted to
-[json](http://de.wikipedia.org/wiki/JavaScript_Object_Notation) and returned
+[json](http://en.wikipedia.org/wiki/JavaScript_Object_Notation) and returned
 with `Content-Type` header set to `application/json`. To disable this feature (and pass dicts to your 
 middleware) you can set `bottle.default_app().autojson` to `False`.
 
